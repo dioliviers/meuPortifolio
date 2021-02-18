@@ -127,13 +127,14 @@ h2{
     margin: 20px;
 }  
 @media (max-width: 768px){
-    .profile img {
-max-width: 50px;
-background: #0085ff
+    .profile2__skills  {
+        display: flex;
+        flex-wrap: wrap;
+    
 
     }
 
 }
     
-}
+
 
