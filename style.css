@@ -5,10 +5,12 @@
     --color-gradient-botom:#FF7D1B;
     --color-white:#FFF;
     --color-black:#0004;
+    
 }
 
 body {
     margin: 0;
+    
 }
 
 .profile__avatar {
@@ -27,6 +29,7 @@ body {
     place-items: center;
     box-shadow: 0 4px 4px #0004;
     text-align: center;
+    grid-auto-flow: column;
 }
 
 .header h1 {
@@ -122,4 +125,15 @@ h2{
 .footer__social{
     justify-self: end;
     margin: 20px;
-}   
+}  
+@media (max-width: 768px){
+    .profile img {
+max-width: 50px;
+background: #0085ff
+
+    }
+
+}
+    
+}
+
