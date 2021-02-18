@@ -82,6 +82,7 @@ body {
     font-size: 16px;
     font-style: normal;
     color:#5F6871;
+    padding: 10px;
 }
 
 h2{
@@ -134,6 +135,11 @@ h2{
 
     }
 
+}
+@media (max-width: 768px){
+    .profile__2_p{
+        padding: 0, 16px , 0 , 16px     ;
+    }
 }
     
 
